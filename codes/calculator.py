@@ -34,9 +34,9 @@ def clear_display():
 # Create buttons in a grid layout
 for i, row in enumerate([
     ["7", "8", "9", "/"],
-    ["4", "5", "6", "_*_"],
-    ["1", "2", "3", "--"],
-    ["0", ".", "=", "_+_"],
+    ["4", "5", "6", "*"],
+    ["1", "2", "3", "-"],
+    ["0", ".", "=", "+"],
     ["C", "(", ")", "CE"]
 ]):
     cols = st.columns(4)
@@ -68,3 +68,4 @@ if expression != st.session_state.display:
 if st.session_state.result:
     st.success(f"Result: {st.session_state.result}")
 
+  
