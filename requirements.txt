@@ -1,0 +1,5 @@
+streamlit
+sympy
+wolframalpha
+asyncio
+# json, os, etc
